@@ -153,8 +153,8 @@ body {
 
 @media (max-width: 768px) {
     .game-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 50px 1fr 150px 50px auto;
+        grid-template-columns: 2fr;
+        grid-template-rows: 100px 1fr 150px 50px auto;
         grid-template-areas: 
             'top-bar'
             'playing-field'
@@ -167,5 +167,15 @@ body {
     }
     .hand-container, .multiplier-container {
         flex-wrap: wrap;
+    }
+    .handcard, .multcard {
+        width: 40px;
+        height: 60px;
+        font-size: 1.2em;
+    }
+    .card {
+        width: 70px;
+        height: 110px;
+        font-size: 1.8em;
     }
 }
