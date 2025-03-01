@@ -91,7 +91,7 @@ window.onload = () => {
         shopContainer.innerHTML = '';
         for (let i = 0; i < 5; i++) {
             const multiplierValue = getRandomNumber(1, 5);
-            const cost = multiplierValue * 1;
+            const cost = multiplierValue * 3;
             const shopItem = document.createElement('div');
             shopItem.className = 'shop-item';
             shopItem.textContent = `Multiplier x${multiplierValue} - $${cost}`;
